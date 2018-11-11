@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+}
+.main-wrap{
+	display: flex;
+}
+.calendar{
+	width: 400px;
+	border: 2px solid black;
+	padding: 15px;
+}
+.time-line{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.time-line_point{
+	height: 60px;
+	border-top: 1px solid #d4d4d4;
+	font-family: 'OpenSans';
+	font-size: 16px;
+}
+.time-line_point:nth-child(even) {
+	font-size: 12px;
+}
+.events-field{
+	position: absolute;
+	right: 0;
+	width: 87%;
+	height: 100%;
+	background-color: rgba(148, 255, 113, 0.1);
+}
+.event-block{
+	position: absolute;
+	left: 0;
+	padding: 2.5px 5px;
+	width: 100%;
+	background-color: #E2ECF5;
+	border-left: 4px solid #6E9ECF;
+	white-space: nowrap;
+	text-overflow: clip;
+}
+.event-block p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin: 0;
+}
+.form-wrap{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+.form-wrap form{
+	display: flex;
+	flex-direction: column;
+}

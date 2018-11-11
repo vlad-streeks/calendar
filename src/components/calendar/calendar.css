@@ -1,0 +1,12 @@
+.calendar{
+	width: 80%;
+	border: 2px solid black;
+	padding: 15px;
+}
+.time-line{
+	display: flex;
+	flex-direction: column;
+}
+.time-line_point{
+	height: 50px;
+}
